@@ -4,28 +4,12 @@
   <artifactId>WebDriver</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
- <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.11.0</version>
+    <version>4.8.0</version>
 </dependency>
-
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-chrome-driver</artifactId>
-    <version>4.11.0</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-api -->
-<dependency>
-    <groupId>org.sikuli</groupId>
-    <artifactId>sikuli-api</artifactId>
-    <version>1.2.0</version>
-</dependency>
-
-
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>

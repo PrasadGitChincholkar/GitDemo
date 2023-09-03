@@ -10,6 +10,7 @@ public static void main(String args[]) throws Exception{
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.navigate().to("http://183.82.103.245/nareshit/login.php");
+Thread.sleep(5000);
 System.out.println(driver.getTitle());
 driver.findElement(By.name("txtUserName")).sendKeys("nareshit");
 driver.findElement(By.name("txtPassword")).sendKeys("nareshit");

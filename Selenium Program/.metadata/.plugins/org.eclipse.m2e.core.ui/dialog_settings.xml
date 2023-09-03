@@ -2,7 +2,6 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="D:\Selenium Program"/>
 			<item value="D:\Eclipse\Selenium Program"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -12,103 +11,6 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.pom.overview">
-	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
-	</section>
-	<section name="MavenProjectWizardLocationPage">
-		<list key="location">
-			<item value="D:\Selenium Program\src\WebdriverExamples\TC_Dropdown.java"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
-		<list key="projectNameTemplate">
-			<item value="ABC"/>
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="Maven2ProjectWizardArchifactPage">
-		<list key="package">
-		</list>
-		<list key="groupId">
-		</list>
-		<list key="artifactId">
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArtifactPage">
-		<list key="groupId">
-		</list>
-		<list key="name">
-		</list>
-		<list key="artifactId">
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
-		<list key="archetypeGroupId">
-			<item value="Maven"/>
-			<item value="MavenProjet"/>
-		</list>
-		<list key="archetypeArtifactId">
-			<item value="Architect"/>
-			<item value="MavenProjet"/>
-		</list>
-		<list key="archetypeVersion">
-			<item value="Project"/>
-			<item value="MavenProjet"/>
-		</list>
-		<list key="repositoryUrl">
-			<item value="MavenProjet"/>
-		</list>
-	</section>
-	<section name="wizardPage">
-		<list key="groupId">
-			<item value="JuniSample"/>
-		</list>
-		<list key="name">
-		</list>
-		<list key="artifactId">
-			<item value="JuniSample"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 </section>

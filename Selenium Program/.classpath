@@ -17,7 +17,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/testng-7.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jxl-2.6.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jxl-2.6.9.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium-server-4.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium-chromium-driver-4.5.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,36 +1,30 @@
 package WebdriverExamples;
 
-
+import java.util.ArrayList;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-public class JSE {
-    public static void main(String args[]) throws Exception{
-        System.setProperty("webdriver.gecko.driver", "F:\\Suresh_Selenium\\Drivers\\geckodriver.exe");  
-        WebDriver driver = new FirefoxDriver();
-           //test casse steps
-        driver.manage().window().maximize();
-       driver.get("http://183.82.103.245/nareshit/login.php&quot;);
-        //driver.get("http://127.0.0.1/orangehrm-2.6/login.php&quot;);
-        System.out.println(driver.getTitle());
-       driver.findElement(By.xpath("//input[@name='txtUserName']")).sendKeys("nareshit");
-       driver.findElement(By.name("txtPassword")).sendKeys("nareshit");
-        //using javascriptExecuter to click on login btn
-WebElement loginbtn = driver.findElement(By.name("Submit"));
-JavascriptExecutor executor = (JavascriptExecutor)driver;
-executor.executeScript("arguments[0].click();", loginbtn);
-        Thread.sleep(4000);
-        System.out.println("Login completed");
-       // using javascriptExecuter to click on logout btn
-WebElement logout = driver.findElement(By.linkText("Logout"));
-JavascriptExecutor executor1 = (JavascriptExecutor)driver;
-executor1.executeScript("arguments[0].click();", logout);
-            System.out.println("Logout completed");
-        driver.close();
-       
-      }
+
+public class TC_Windhand {
+public static void main(String args[]) throws Exception{
+    //Test Steps
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+//1st wind
+driver.get("file:///D://multiplewindows.html");
+Thread.sleep(40);
+//2nd wind
+driver.findElement(By.id("btn2")).click();
+Thread.sleep(40);
+//3rd wind
+driver.findElement(By.id("btn3")).click();
+Thread.sleep(40);
+ArrayList<String> windinfo = new ArrayList<String>(driver.getWindowHandles());
+driver.switchTo().window(windinfo.get(0));
+Thread.sleep(40);
+//driver.close();
+driver.quit();
+}
 }
